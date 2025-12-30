@@ -19,3 +19,17 @@
 3. Build with standard Gradle commands:
    ```bash
    ./gradlew assembleDebug
+4. 📂 Project Structure
+
+├── app/
+│   ├── src/main/
+│   │   ├── java/com/example/template/MainActivity.java
+│   │   ├── res/
+│   │   │   ├── layout/activity_main.xml
+│   │   │   ├── values/strings.xml
+│   │   │   └── values/styles.xml
+│   │   └── AndroidManifest.xml
+├── gradle/wrapper/
+├── build.gradle
+├── settings.gradle
+└── gradle.properties
