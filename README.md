@@ -1,6 +1,8 @@
 # Android Online Template
 🌐 Zero-dependency template for browser-based Android development
+
 ![Template](https://img.shields.io/badge/Template-Online_Gradle-green?style=for-the-badge)
+
 ![Online-Ready](https://img.shields.io/badge/Online_Ready-100%25-brightgreen?style=flat-square)
 
 ## ✅ Features
