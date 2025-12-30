@@ -1,0 +1,26 @@
+# Android
+.gradle
+local.properties
+*.apk
+*.aar
+*.apks
+
+# Build directories
+build/
+app/build/
+
+# IDE files (keep generic)
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Keystore
+*.jks
+*.keystore
+
+# External native builds
+.cxx/
+
+# Gradle
+.gradle/
