@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Online Template</string>
+    <string name="welcome_message">Hello World! \nReady for online development</string>
+    <string name="action_button">Click Me</string>
+</resources>
