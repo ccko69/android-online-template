@@ -20,7 +20,7 @@
    ```bash
    ./gradlew assembleDebug
 4. 📂 Project Structure
-
+```
 ├── app/
 │   ├── src/main/
 │   │   ├── java/com/example/template/MainActivity.java
@@ -33,3 +33,4 @@
 ├── build.gradle
 ├── settings.gradle
 └── gradle.properties
+```
