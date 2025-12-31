@@ -1,9 +1,28 @@
 buildscript {
-    ext {
-        agp_version = '8.6.0'
+    ext.kotlin_version = '2.0.0-RC1'
+    repositories {
+        google()
+        maven { url 'https://jitpack.io' }
+    	maven { url "https://plugins.gradle.org/m2/" }
+        mavenCentral()
     }
+    
     dependencies {
         classpath "com.android.tools.build:gradle:8.4.0-alpha07"
+    }
+}
+
+allprojects {
+    apply from: "$rootDir/gradle/dependencies.gradle"
+
+    repositories {
+        google()
+        maven { url 'https://jitpack.io' }
+    	maven { url "https://plugins.gradle.org/m2/" }
+        mavenCentral()
+        maven {
+            url 'https://repo.gradle.org/gradle/libs-releases/'
+        }       
     }
 }
 
